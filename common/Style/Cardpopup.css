@@ -1,0 +1,107 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 87%;
+  height: auto;
+}
+.history-request-service-date {
+  width: 77%;
+  border: 1px solid #707070;
+  height: 44px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  background-position: right 8px top 40%;
+  /* background-color: var(--color2); */
+}
+.history-request-service-dates {
+  width: 77%;
+  border: 1px solid #707070;
+  height: 35px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  background-position: right 8px top 40%;
+  /* background-color: var(--color2); */
+}
+.start-calender {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+.popup-chart-container {
+  width: 100%;
+  /* background-color: var(--color1); */
+}
+.tag-id {
+  margin-top: 27px;
+  padding-bottom: 10px;
+}
+.selcted-items {
+  display: flex;
+}
+.overall-container {
+  display: flex;
+}
+.plant-id-container {
+  width: 40%;
+  padding-top: 14px;
+  margin-left: 7%;
+}
+.calenders-container {
+  width: 35%;
+}
+.header {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+.date-selectbox {
+  margin-right: 12px;
+  width: 76%;
+  height: 12%;
+}
+.onclick-reports-table {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.onclick-download-icon {
+  cursor: pointer;
+  margin-left: 11%;
+  height: 38px;
+  width: 35px;
+}
+.error-text {
+  color: #ff0000;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.no-data-message {
+  color: blue;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,58 @@
+.page-not-found-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.page-not-found-inner-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-not-found-container .content-container {
+  color: #fff;
+  font-size: 20px;
+  width: 50%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-not-found-container .image-container {
+  width: 50%;
+}
+.page-not-found-message {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.back-to-page {
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 8px;
+  margin-top: 10px;
+  background-color: var(--color2);
+  border: none;
+  font-weight: 600;
+  color: var(--color1);
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 30%;
+}
+.page-not-found-container .content-container > button {
+  z-index: 1;
+}

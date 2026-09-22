@@ -1,0 +1,53 @@
+/* 
+
+.master {
+  width: 60%; 
+  height: 15px; 
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.data {
+  background-color: blue;
+  width: 50%; 
+  transition: width 0.5s; 
+}
+
+.remaining {
+  background-color: white;
+  flex: 1; 
+}
+
+#myChart {
+  width: 100%;
+  height: 100px;
+} */
+
+.master {
+  width: 100%;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  overflow: hidden;
+  /* border-radius: 5px; */
+}
+
+.data {
+  background-color: blue;
+  width: 50%;
+  transition: width 0.5s;
+}
+
+.remaining {
+  background-color: white;
+  flex: 1;
+}
+
+#myChart {
+  width: 100%;
+  height: 100px;
+}

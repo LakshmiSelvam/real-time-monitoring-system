@@ -1,0 +1,28 @@
+.input-label {
+  font-size: 18px;
+}
+.common-input {
+  /* width:100%; */
+  border: 1px solid #989594;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  /* background-color: #f5f5f5; */
+  padding: 1rem;
+}
+.input-label {
+  font-family: Open-Sans, sans-serif;
+
+}
+.common-input:focus {
+  outline: none;
+}
+
+.snack-success > div {
+  background-color: #43a047 !important;
+}
+.snack-error > div {
+  background-color: #d32f2f;
+}

@@ -1,0 +1,38 @@
+.area-chart-container {
+  width: 100%;
+  background-color: var(--color1);
+  /* margin-top: 10px; */
+}
+/* .area-chart-container > div > div > svg > foreignObject {
+  width: 100%;
+} */
+.apexcharts-svg .apexcharts-yaxis .apexcharts-yaxis-texts-g > text {
+  fill: white;
+}
+.apexcharts-xaxis .apexcharts-xaxis-texts-g > text {
+  fill: white;
+}
+.apexcharts-canvas .apexcharts-toolbar {
+  display: none;
+}
+.toolbar {
+  display: none;
+}
+.apexcharts-inner > defs > linearGradient > stop:nth-child(1) {
+  stop-color: rgb(70, 212, 195, 0.7);
+}
+.apexcharts-inner > defs > linearGradient > stop:nth-child(2) {
+  stop-color: rgb(70, 212, 195, 0.9);
+}
+.apexcharts-inner > defs > linearGradient > stop:nth-child(3) {
+  stop-color: rgb(70, 212, 195, 0.9);
+}
+.area-chart{
+ /* height: 100px; */
+}
+@media (min-width: 2560px) {
+  .area-chart-container {
+    height: 420px; /* Adjust the height as needed */
+    padding-top: 30px;
+  }
+}

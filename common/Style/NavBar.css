@@ -1,0 +1,95 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.sidebar-container {
+  display: flex;
+}
+.home-container-align {
+  background-color: #007bff; /* You can change the color code to your desired background color */
+}
+
+/* @media (max-width: 2040px){ */
+.sidebar {
+  width: 4%;
+  height: 97%;
+  background-color: var(--color3);
+  position: fixed;
+  /* top: 1%; */
+  margin-top: 12px;
+
+  left: 0.5%;
+  overflow-x: hidden;
+  transition: all 0.4s ease;
+  /* Add curved edges */
+  border-radius: 17px;
+}
+
+.our-logo {
+  width: 85%;
+  margin-top: 30%;
+  margin-left: 4%;
+  cursor: pointer;
+}
+
+.home-logo {
+  margin-top: 65%;
+  margin-left: 15%;
+  cursor: pointer;
+}
+
+.report-logo {
+  margin-top: 85%;
+  margin-left: 17%;
+  border-radius: 4.146px;
+  cursor: pointer;
+}
+.close-btn {
+  display: none;
+}
+.sidenav {
+  display: none;
+}
+.user-icon {
+  margin-top: 85%;
+  margin-left: 17%;
+  border-radius: 4.146px;
+  cursor: pointer;
+}
+/* } */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .close-btn {
+    display: block;
+  }
+}
+/* @media (max-width: 2040px) {
+  .sidebar {
+    width: 4%;
+    height: 97%;
+    background-color: #383838;
+    position: fixed;
+    margin-top: 12px;
+
+@media screen and (min-width: 769px) and (max-width: 990px) {
+}
+
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+}
+
+@media (min-width: 2560px) {
+  .nav-bar {
+    height: 92%;
+  }
+}
+
+@media (min-width: 1902px) and (min-height: 1080px) {
+  .sidebar {
+    height: 95%;
+
+  }
+} */

@@ -1,0 +1,26 @@
+import variables from "../variables/globals";
+
+export default {
+  login: variables.domain + "/profiles/login",
+  refreshToken: variables.domain + "/profiles/refreshToken",
+  forget: variables.domain + "/profiles/forgetPassword",
+  reset: variables.domain + "/profiles/resetPassword",
+  addUser: variables.domain + "/profiles/add-user",
+  getAllUser: variables.domain + "/profiles/getUserByCc/",
+  getUserById: variables.domain + "/profiles/getUser/",
+  updateUser: variables.domain + "/profiles/updateUser",
+  deActivateUser: variables.domain + "/profiles/deActivate",
+  activateUser: variables.domain + "/profiles/activateAccount",
+  uploadProfile: variables.domain + "/profiles/upload-profile",
+  getBaseURL: variables.domain + "/servers/getBaseUrl",
+  getFactory: variables.domain + "/erp/get",
+  updateFactory: variables.domain + "erp/update",
+  getDataCards: "/home/datacards",
+  getGraph: "/home/graphs",
+  getPlantLines: "/home/all-plant-line",
+  getPlants: "/plants/get",
+  getLines: "/lines/get",
+  getMachineLive: "/home/machines-live",
+  report: "/reports/",
+  getTopBarData: "/home/get-topbar-data",
+};

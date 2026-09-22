@@ -1,0 +1,81 @@
+.rectangular-shape {
+  position: fixed;
+  border-radius: 5px;
+  width: 14%;
+  height: 60%;
+  background-color: var(--color1); /* White background with some transparency */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2; /* Ensure it appears above other elements */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for a modal-like effect */
+  display: grid;
+  grid-template-columns: 1fr; /* Adjust the number of columns as needed */
+  grid-gap: 1%; /* Adjust the gap between grid items as needed */
+  padding: 1%; /* Adjust the padding as needed */
+  margin-top: -20rem;
+  margin-left: -14rem;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: #333; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #555; /* Hover background color */
+}
+.menu-img-container {
+  margin-left: auto;
+  position: relative;
+  top: -21rem;
+}
+.menu-img {
+  margin-left: auto;
+  position: relative;
+  top: -50%;
+}
+/* Style for grid items (optional) */
+.rectangular-shape .grid-item {
+  position: relative;
+  padding-left: 20%; /* Adjust the padding as needed to control the size of the cylinder */
+  display: flex;
+  color: aliceblue;
+  flex-direction: column;
+  width: 12em;
+  height: 4em;
+  border-radius: 5px;
+  background-color: #6e777a;
+  padding: 3%; /* Adjust the padding for each grid item as needed */
+  text-align: start;
+  padding-left: 10%;
+  font-size: 1em;
+  margin-top: -2%;
+  font-weight: bold;
+}
+
+.grid-item::before {
+  content: "";
+  position: absolute;
+  left: 2%;
+  margin-top: 1%;
+  width: 3%; /* Adjust the width of the cylinder */
+  height: 78%;
+  background-color: var(--color2); /* Set the background color to blue */
+  border-radius: 10px;
+}
+.rectangular-shape .grid-item > div {
+  padding-left: 8em; /* Move to the right */
+  margin-top: -14%; /* Move up slightly */
+}
+
+.data-fix {
+  padding-top: 10px;
+}

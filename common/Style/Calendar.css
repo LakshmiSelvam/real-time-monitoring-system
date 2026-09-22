@@ -1,0 +1,137 @@
+.calender-content {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.calender-header-title {
+  width: 100%;
+}
+.calender-header-title-container {
+  width: 80%;
+}
+.calender-header-next-prev {
+  width: 20%;
+  text-align: center;
+}
+.calender-header-week-days-container {
+  width: 100%;
+}
+.calender-header-week-day {
+  width: 14.28%;
+  color: #333333;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+.calender-header-next-icon {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid black;
+  cursor: pointer;
+}
+.calender-header-prev-icon {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid black;
+  cursor: pointer;
+}
+.calender-popup-content .calender-header-next-icon {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid black;
+  cursor: pointer;
+}
+.calender-popup-content .calender-header-prev-icon {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid black;
+  cursor: pointer;
+}
+.calender-days-container {
+  width: 100%;
+  font-size: 14px;
+}
+.calender-day {
+  color: #333333;
+  float: left;
+  width: 14.28%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.calender-popup-content .calender-day div {
+  padding: 8px;
+  height: 80%;
+  width: 80%;
+  box-sizing: border-box;
+}
+.calender-day div {
+  padding: 10px;
+  height: 80%;
+  width: 80%;
+  box-sizing: border-box;
+}
+.calender-prev-month-day {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.calender-prev-month-day div {
+  width: 100%;
+  height: 100%;
+}
+.calender-prev-next-month-day {
+  opacity: 0.6;
+}
+.calender-current-month-day div:hover,
+.calender-current-month-day div:active {
+  background-color: #cccccc;
+  border-radius: 20px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.calender-current-month-day .active,
+.calender-current-month-day .current {
+  box-shadow: 0px 3px 3px #0000005c;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.calender-prev-month-day .highlighted {
+  /* display: none; */
+}
+.calender-current-month-day .highlighted {
+  padding: 1px !important;
+  height: 2px !important;
+  width: 80% !important;
+  background-color: black;
+  border-radius: 4px !important;
+}
+.current .highlighted,
+.active .highlighted {
+  background-color: white;
+}
+.calender-current-month-day .current {
+  background-color: #da2128;
+}
+.calender-current-month-day .active {
+  background-color: #cccccc !important;
+}
+.displayFlex {
+  display: flex;
+}
+.flexAlignCenterJustifyCenter {
+  display: flex;
+  justify-content: center;
+}
+.cursor-not-allowed {
+  cursor: no-drop;
+  background: #eae7e7;
+}

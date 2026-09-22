@@ -1,0 +1,55 @@
+/* .custom-time-picker {
+  width: 50%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.custom-time-picker label {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+} */
+
+.ant-btn {
+  z-index: 1;
+  width: 60px;
+}
+
+.ant-picker-outlined {
+  background-color: none;
+}
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-picker-outlined {
+  background: none;
+  border-width: 1px;
+  border-style: 1px solid;
+  border-color: #707070;
+  width: inherit;
+  /* border: 1px solid #707070; */
+  height: 35px;
+}
+.ant-picker:where(
+    .css-dev-only-do-not-override-1xg9z9n
+  ).ant-picker-outlined:hover {
+  background: none;
+  border-color: #707070;
+  height: 35px;
+}
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-picker-outlined:focus-within {
+  background: none;
+  border-color: #707070;
+  /* color: white; */
+}
+/* :where(.css-dev-only-do-not-override-1xg9z9n).ant-picker
+  .ant-picker-input
+  > input:focus {
+  box-shadow: #707070;
+} */
+/* .ant-picker-time-panel-input::placeholder {
+  color: white;
+} */
+/* .white-placeholder .ant-picker-input > input::placeholder {
+  color: white;
+} */
+.white-placeholder {
+  color: white;
+}
