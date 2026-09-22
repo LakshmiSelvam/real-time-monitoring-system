@@ -1,0 +1,400 @@
+.account-container {
+  width: 100%;
+}
+.account-inner-container {
+  margin-left: 4%;
+  width: 80%;
+  font-family: "Outfit", sans-serif;
+}
+.account-title {
+  display: flex;
+  width: 100%;
+  margin-left: 45px;
+}
+.profile-title {
+  border-bottom: 2px solid white;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+}
+.profile-title-active {
+  border-bottom: 2px solid var(--color2);
+  padding: 5px;
+  margin-left: 12px;
+  color: var(--color2);
+  cursor: pointer;
+}
+.factory-management-active {
+  border-bottom: 2px solid var(--color2);
+  color: var(--color2);
+  cursor: pointer;
+  margin-left: 12px;
+  padding: 5px;
+}
+.factory-management-title {
+  border-bottom: 2px solid white;
+  padding: 5px;
+  margin-left: 12px;
+  color: white;
+  cursor: pointer;
+}
+.profile-content-inputfield {
+  width: 50%;
+}
+.profile-content {
+  width: 100%;
+  display: flex;
+}
+
+.profile-content .input-field {
+  width: 70%;
+  padding: 13px;
+}
+
+.profile-content .profile-content-inputfield .input-label {
+  font-size: 16px;
+}
+
+.profile-content-inputfield > div {
+  margin-top: 25px;
+}
+
+.profile-content-bio {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.profile-content-bio .bio-text {
+  color: var(--color2);
+  font-size: 16px;
+}
+
+.bio-textarea {
+  width: 80%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #989594;
+  border-radius: 4px;
+  background-color: var(--color3);
+  font-size: 16px;
+  resize: none;
+  margin-top: 5px;
+  color: white;
+}
+.account-btn {
+  display: flex;
+  justify-content: center;
+  padding: 8px 40px;
+  margin-top: 10px;
+  background-color: var(--color2);
+  border: none;
+  color: var(--color1);
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 0px;
+}
+.account-btn:hover {
+  background-color: var(--color3);
+  border: 2px solid var(--color2);
+  color: var(--color2);
+}
+.user-list-title {
+  width: 80%;
+  color: #ffffff;
+}
+.users-display {
+  display: flex;
+  margin-top: 15px;
+}
+.users-display {
+  width: 60%;
+}
+.users-list {
+  width: 40%;
+}
+.users-roles {
+  color: white;
+  margin-left: 40px;
+  width: 40%;
+}
+.users-name {
+  margin-top: 12px;
+  color: #ffffff;
+  padding: 15px 15px;
+  background-color: var(--color1);
+  border: 1px solid #989594;
+  border-radius: 6px;
+}
+.add-user-button {
+  display: flex;
+  justify-content: center;
+  padding: 12px 40px;
+  margin-top: 10px;
+  background-color: var(--color2);
+  border: none;
+  font-weight: 600;
+  color: var(--color1);
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 0px;
+}
+.add-user-button:hover {
+  background-color: var(--color3);
+  border: 2px solid var(--color2);
+  color: var(--color2);
+}
+.user-roles-list {
+  width: 50%;
+}
+.time-picker {
+  margin-left: 12px;
+}
+.end-time-picker {
+  margin-left: 12px;
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .profile-content .input-field {
+    width: 96%;
+  }
+  .profile-container {
+    left: 86%;
+  }
+  .bio-textarea {
+    width: 94%;
+  }
+  .profile-content-bio {
+    margin-top: 20px;
+  }
+  .users-display {
+    width: 90%;
+    margin-top: 5%;
+  }
+  .users-list {
+    width: 50%;
+  }
+  .users-roles {
+    margin-left: 42px;
+    width: 50%;
+  }
+  .add-user-button {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  .profile-container {
+    left: 65%;
+  }
+  .profile-content .input-field {
+    width: 97%;
+  }
+  .bio-textarea {
+    width: 94%;
+  }
+  .profile-content-bio {
+    margin-top: 20px;
+  }
+  .add-user-button {
+    margin-top: 40px;
+  }
+  .users-display {
+    width: 90%;
+    margin-top: 5%;
+  }
+  .users-list {
+    width: 50%;
+  }
+  .users-roles {
+    margin-left: 42px;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+  .profile-content .input-field {
+    width: 90%;
+  }
+  .profile-content-bio {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .bio-textarea {
+    width: 85%;
+  }
+  .users-display {
+    width: 95%;
+    margin-top: 4%;
+  }
+  .add-user-button {
+    margin-top: 40px;
+  }
+  .account-inner-container {
+    margin: 1% 0% 0% 4%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .profile-content-bio {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .users-display {
+    width: 80%;
+    margin-top: 2%;
+  }
+  .users-list {
+    width: 50%;
+  }
+  .users-roles {
+    margin-left: 42px;
+    width: 50%;
+  }
+  .add-user-button {
+    margin-top: 25px;
+  }
+  .users-name {
+    margin-top: 20px;
+  }
+  .account-inner-container {
+    margin-top: 0px;
+    margin-left: 3%;
+    overflow: auto;
+  }
+}
+
+@media (min-width: 2560px) {
+  .profile-title-active {
+    font-size: 30px;
+  }
+  .user-management-title {
+    font-size: 30px;
+    margin-left: 72px;
+  }
+  .profile-title {
+    font-size: 30px;
+  }
+  .user-management-active {
+    font-size: 30px;
+    margin-left: 72px;
+  }
+  .profile-content .profile-content-inputfield .input-label {
+    font-size: 28px;
+  }
+  .profile-content .input-field {
+    width: 90%;
+    padding: 13px;
+    height: 35%;
+  }
+  .common-input {
+    font-size: 28px;
+  }
+  .profile-content-bio {
+    width: 100%;
+    margin-top: 6%;
+  }
+  .bio-textarea {
+    width: 87%;
+    font-size: 28px;
+    height: 280px;
+  }
+  .profile-content-bio .bio-text {
+    font-size: 28px;
+  }
+  .profile-content-inputfield {
+    width: 50%;
+    margin-top: 1.5%;
+  }
+  .account-btn {
+    font-size: 28px;
+    padding: 15px 40px;
+    margin-top: 30px;
+  }
+  .add-user-button {
+    font-size: 25px;
+    padding: 17px 41px;
+    margin-top: 4%;
+  }
+  .user-list-title {
+    font-size: 28px;
+    margin-top: 5%;
+  }
+  .user-roles-list {
+    font-size: 28px;
+    margin-top: 5%;
+  }
+  .users-display {
+    width: 100%;
+  }
+  .users-name {
+    margin-top: 30px;
+    height: 35%;
+    font-size: 28px;
+  }
+  .sign-out-btn::after {
+    font-size: 45px;
+  }
+  .profile-name {
+    font-size: 23px;
+  }
+}
+
+@media screen and (min-width: 1900px) and (min-height: 1080px) {
+  .account-inner-container {
+    margin-top: 2%;
+    margin-left: 3%;
+  }
+  .profile-title-active,
+  .profile-title {
+    font-size: 25px;
+  }
+  .user-management-title,
+  .user-management-active {
+    font-size: 25px;
+  }
+  .profile-content .profile-content-inputfield .input-label {
+    font-size: 23px;
+  }
+  .profile-content-bio {
+    margin-top: 12px;
+  }
+  .profile-content-bio .bio-text {
+    font-size: 23px;
+  }
+  .account-btn {
+    font-size: 23px;
+    padding: 20px 40px;
+  }
+  .profile-content .input-field {
+    width: 85%;
+    padding: 18px;
+  }
+  .existing-user-display {
+    margin-top: 15px;
+  }
+  .add-user-button {
+    font-size: 22px;
+    padding: 15px 40px;
+  }
+  .users-display {
+    margin-top: 2%;
+  }
+  .user-list-title {
+    font-size: 25px;
+  }
+  .user-roles-list {
+    font-size: 25px;
+  }
+  .users-name {
+    font-size: 23px;
+  }
+}
+@media screen and (min-width: 1900px) and (max-height: 945px) {
+  .account-inner-container {
+    margin-top: 0%;
+    margin-left: 2%;
+  }
+}

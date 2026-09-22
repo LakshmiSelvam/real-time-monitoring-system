@@ -1,0 +1,153 @@
+.back-icon {
+  width: 40px;
+  cursor: pointer;
+}
+.time-picker-inputs {
+  color: white;
+  background-color: var(--color3);
+  border: 2px solid #ccc;
+  width: 75%;
+  height: -webkit-fill-available;
+}
+.factory-by-day {
+  color: var(--color2);
+  cursor: pointer;
+  padding: 5px;
+  padding-top: 30px;
+  display: flex;
+  font-size: 20px;
+}
+.factory-by-day .show-selectbox {
+  display: flex;
+  width: 100%;
+  padding-top: 9px;
+}
+.factory-by-day .request-service-date {
+  color: white;
+  height: 35px;
+  padding: 3px;
+  font-size: 18px;
+  margin-right: inherit;
+}
+.factory-by-day .common .factory-shift-list .dropdown .dropdown-btn {
+  border: 1px solid #989594;
+  background-color: var(--color3);
+  width: 40%;
+}
+.factory-shift-list {
+  width: 67.5%;
+}
+.factory-shift-list .select-box-label {
+  font-size: 18px;
+  margin-top: 5px;
+  padding-bottom: 7px;
+  margin-left: 0%;
+  color: var(--color2);
+  font-weight: 600;
+}
+.factory-shift-list .dropdown-content {
+  width: 70%;
+  margin-left: 0%;
+}
+.start-day-section,
+.end-day-section {
+  margin-right: auto; /* Adjust the margin as needed */
+  font-size: 16px;
+}
+.input-label {
+  font-size: 16px;
+}
+
+.shift-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.shift-list-name {
+  color: var(--color2);
+  margin: 2px;
+}
+.ant-picker:where(.css-dev-only-do-not-override-1xg9z9n).ant-picker-outlined {
+  width: inherit;
+  margin-left: 15px;
+}
+
+.common-input {
+  margin-right: 30px;
+}
+.cancel-icon {
+  width: 4%;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.add-factory-button {
+  display: flex;
+  justify-content: center;
+  padding: 8px 40px;
+  margin-top: 10px;
+  background-color: var(--color2);
+  border: none;
+  color: var(--color1);
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 0px;
+}
+.add-factory-button .btn-img {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10%;
+  justify-content: center;
+  align-items: center;
+}
+.factory-update-btn {
+  display: flex;
+  justify-content: center;
+  padding: 8px 40px;
+  margin-top: 10px;
+  background-color: var(--color2);
+  border: none;
+  color: var(--color1);
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 0px;
+  width: auto;
+}
+.factory-update-btn:hover {
+  background-color: var(--color3);
+  border: 2px solid var(--color2);
+  color: var(--color2);
+}
+
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+  .show-selectbox {
+    margin-bottom: 39px;
+    width: 32%;
+    max-width: 90%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .factory-by-day {
+    display: grid;
+  }
+}
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-picker
+  .ant-picker-input
+  > input {
+  color: white;
+}
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-picker
+  .ant-picker-input
+  > input::placeholder {
+  color: white;
+}
+.anticon svg {
+  color: white;
+}
+:where(.css-dev-only-do-not-override-1drr2mu).ant-picker-outlined {
+  background-color: var(--color3);
+  border: 2px solid #ccc;
+  color: white;
+}

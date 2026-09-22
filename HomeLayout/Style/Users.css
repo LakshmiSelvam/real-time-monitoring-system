@@ -1,0 +1,578 @@
+.user-management-title {
+  border-bottom: 2px solid white;
+  padding: 5px;
+  margin-left: 12px;
+  color: white;
+  cursor: pointer;
+}
+.user-management-active {
+  border-bottom: 2px solid var(--color2);
+  padding: 5px;
+  margin-left: 12px;
+  color: var(--color2);
+  cursor: pointer;
+}
+.titles {
+  color: white;
+  display: flex;
+  cursor: pointer;
+  margin-left: 20px;
+  gap: 30px;
+}
+.user-title-active {
+  border-bottom: 2px solid var(--color2);
+  color: var(--color2);
+  cursor: pointer;
+  padding: 5px;
+}
+.user-title {
+  border-bottom: 2px solid white;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+}
+.role-management-active {
+  border-bottom: 2px solid var(--color2);
+  padding: 5px;
+  margin-left: 12px;
+  color: var(--color2);
+  cursor: pointer;
+}
+.role-management-title {
+  border-bottom: 2px solid white;
+  padding: 5px;
+  margin-left: 12px;
+  color: white;
+  cursor: pointer;
+}
+
+.user-container {
+  width: 100%;
+  height: 100%;
+}
+.user-inner-container {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 12px;
+}
+.add-user-button-container {
+  width: 20%;
+  height: 7%;
+}
+.add-user-button-container .add-user-button {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+  margin-top: 10px;
+  background-color: var(--color2);
+  border: none;
+  font-weight: 600;
+  color: var(--color1);
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.add-user-button-container .btn-img {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10%;
+  justify-content: center;
+  align-items: center;
+}
+.add-user-popup {
+  width: 100%;
+  height: 100%;
+}
+.add-user-model {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-user-model-content {
+  background-color: var(--color3);
+  width: 45%;
+  height: 95%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  overflow: auto;
+}
+.add-user-title {
+  font-size: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2%;
+  color: #ebebeb;
+  font-weight: 400;
+}
+.add-user-model-inner-content {
+  width: 100%;
+  display: flex;
+  margin-top: 12px;
+  padding: 12px;
+}
+.add-user-input-content {
+  width: 50%;
+}
+.add-user-inputs {
+  width: 50%;
+}
+.add-user-inputs label,
+.add-user-input-content label {
+  float: left;
+  font-size: 14px;
+  margin-left: 5%;
+  color: #ebebeb;
+  font-weight: 400;
+}
+.add-user-email .input-field {
+  width: 100%;
+}
+.add-user-inputs .input-field,
+.add-user-email .input-field,
+.add-user-companycode .input-field {
+  width: 90%;
+  color: #ebebeb;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 16px;
+}
+.add-user-profile {
+  width: 100%;
+  height: 30%;
+}
+.image-container {
+  width: 100%;
+}
+.user-image-view {
+  height: 18%;
+  width: 18%;
+  border-radius: 50%;
+  padding: 0px;
+  cursor: pointer;
+  border: 1px solid grey;
+  margin-left: 25px;
+}
+.image-file-upload-input {
+  visibility: hidden;
+  height: 0;
+}
+.image-container .add-user-inner-x {
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  bottom: 15px;
+  right: 10px;
+  font-weight: normal;
+  cursor: pointer;
+  color: #ebebeb;
+}
+.add-profile-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.profile-lable {
+  float: left;
+  font-size: 15px;
+  margin-left: 5%;
+  color: var(--color3);
+  font-weight: 600;
+  margin-top: 5px;
+}
+.change-pic-span {
+  margin-left: 25px;
+  margin-top: 8px;
+  font-size: 13px;
+  color: #ebebeb;
+  cursor: pointer;
+}
+.add-user-submit-buttons {
+  width: 100%;
+  display: flex;
+  margin-top: 5%;
+  padding-bottom: 15px;
+}
+.add-user-submit-buttons .user-cancel-btn > button,
+.add-user-submit-buttons .user-submit-btn > button,
+.add-user-submit-buttons .user-update-btn > button {
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.user-cancel-btn {
+  width: 50%;
+}
+.user-submit-btn {
+  width: 48%;
+}
+
+.user-update-btn {
+  width: 48%;
+}
+.add-user-cancel-btn {
+  width: 40%;
+  float: right;
+  background-color: #ff0000;
+}
+.add-user-submit-btn {
+  width: 40%;
+  float: left;
+  margin-left: 2%;
+  background-color: var(--color2);
+}
+.add-user-inputs .invalid-error,
+.add-user-input-content .invalid-error {
+  width: 90%;
+  border-bottom: 2px solid #ff0000 !important;
+}
+.add-user-inputs .invalid-error::placeholder {
+  color: #ff0000;
+}
+.add-user-role {
+  margin-top: 8%;
+}
+.add-user-lastname,
+.add-user-phone {
+  margin-top: 8px;
+}
+.add-user-role .dropdown {
+  border: 1px solid #989594;
+  width: 90%;
+  padding: 4px;
+  border-radius: 8px;
+}
+.role-title {
+  float: left;
+  font-size: 14px;
+  margin-left: 5%;
+  color: #ebebeb;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.add-user-role .dropdown .dropdown-btn {
+  color: #ebebeb;
+  font-size: 14px;
+  background-color: var(--color3);
+  padding: 8px;
+}
+.add-user-role .dropdown {
+  margin-top: 3px;
+}
+.add-user-role .role-dropdown .dropdown {
+  border: 1px solid #ebebeb;
+}
+.add-user-role .invalid-error .dropdown {
+  border-bottom: 2px solid #ff0000 !important;
+}
+.add-user-firstname,
+.add-user-lastname,
+.add-user-phone,
+.add-user-email,
+.add-user-companycode,
+.add-user-role {
+  display: flex;
+  flex-direction: column;
+}
+.user-error-msg {
+  color: #ff0000;
+  font-size: 14px;
+}
+.permission-container {
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 25px;
+  color: #ebebeb;
+}
+.permission-title {
+  float: left;
+  color: #ebebeb;
+  font-size: 16px;
+  width: 100%;
+  display: flex;
+}
+.permission-header {
+  float: left;
+  color: #ebebeb;
+  font-size: 15px;
+  width: 100%;
+  display: flex;
+  margin-top: 9px;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+.permission-container .plants-permission {
+  width: 80%;
+  display: flex;
+}
+.checkbox-label {
+  color: #ebebeb;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 10px;
+  width: 100%;
+}
+.screen-checkbox-label {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 14px;
+}
+.plants-list {
+  display: flex;
+  width: 42%;
+}
+.view-label {
+  width: 33%;
+  font-size: 14px;
+}
+.edit-label {
+  width: 33%;
+}
+.delete-label {
+  width: 33%;
+}
+.more-label {
+  width: 25%;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 20px;
+  margin-left: 12px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 18px;
+  top: 2px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+input:checked + .slider {
+  background-color: #46d4c3;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #46d4c3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .add-user-model-content {
+    background-color: var(--color3);
+    width: 68%;
+    height: 85%;
+  }
+  .add-user-title {
+    margin-top: 15px;
+  }
+  .add-user-model-inner-content {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  .add-user-input-content {
+    width: 100%;
+  }
+  .add-user-inputs {
+    width: 100%;
+  }
+  .add-user-submit-buttons {
+    margin-top: 10%;
+  }
+  .add-user-button-container {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  .add-user-model-content {
+    width: 68%;
+    height: 55%;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+  .add-user-model-content {
+    width: 70%;
+    height: 65%;
+  }
+  .add-user-profile {
+    height: 43%;
+  }
+  .add-user-title {
+    margin-top: 15px;
+  }
+  .add-user-button-container {
+    width: 30%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .add-user-model-content {
+    width: 60%;
+    height: 60%;
+  }
+  .add-user-profile {
+    height: 41%;
+  }
+  .role-title {
+    margin-top: 10px;
+  }
+  .add-user-button-container {
+    width: 20%;
+  }
+}
+@media screen and (min-width: 1900px) and (min-height: 1080px) {
+  .add-user-model-content {
+    width: 50%;
+    height: 80%;
+  }
+  .add-user-title {
+    font-size: 30px;
+  }
+  .add-user-inputs .input-label {
+    font-size: 25px;
+  }
+  .add-user-inputs .input-field {
+    padding: 22px;
+    font-size: 20px;
+    margin-left: 28px;
+  }
+  .add-user-inputs .add-user-email .input-field {
+    width: 91%;
+  }
+  .add-user-inputs .add-user-role .input-field {
+    width: 92%;
+  }
+  .add-user-profile {
+    margin-top: 8px;
+  }
+  .profile-lable {
+    font-size: 25px;
+  }
+  .add-user-email .input-field {
+    margin-left: 28px;
+    padding: 22px;
+  }
+  .add-user-email .input-label {
+    font-size: 25px;
+  }
+  .role-title {
+    font-size: 25px;
+  }
+  .add-user-role .dropdown {
+    margin-top: 0px;
+  }
+  .add-user-role .dropdown .dropdown-btn {
+    padding: 22px;
+  }
+  .change-pic-span {
+    font-size: 23px;
+    margin-left: 10%;
+  }
+  .user-image-view {
+    margin-top: 8px;
+  }
+  .add-user-submit-buttons .user-cancel-btn > button,
+  .add-user-submit-buttons .user-submit-btn > button,
+  .add-user-submit-buttons .user-update-btn > button {
+    padding: 20px;
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1900px) and (max-height: 945px) {
+  .add-user-model-content {
+    width: 40%;
+    height: 75%;
+  }
+  .role-title {
+    margin-top: 10px;
+  }
+  .add-user-role .dropdown {
+    margin-top: 0px;
+  }
+  .add-user-role .dropdown .dropdown-btn {
+    background-color: var(--color1);
+  }
+  .add-user-submit-buttons {
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    padding-bottom: 0px;
+  }
+}
+@media (min-width: 2560px) {
+  .add-user-model-content {
+    width: 40%;
+    height: 75%;
+  }
+  .role-title {
+    margin-top: 10px;
+  }
+  .add-user-role .dropdown {
+    margin-top: 0px;
+    margin-left: 17px;
+  }
+  .add-user-role .dropdown .dropdown-btn {
+    background-color: var(--color1);
+  }
+  .add-user-submit-buttons {
+    width: 100%;
+    display: flex;
+    margin-top: 3%;
+    padding-bottom: 15px;
+  }
+}

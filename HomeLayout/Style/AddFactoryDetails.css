@@ -1,0 +1,293 @@
+.factory-request-service-date {
+  width: 100%;
+  border: 1px solid #707070;
+  height: 42px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  /* background: url(../../../assets/svg/calendar-alt-solid.svg) no-repeat; */
+  background-position: right 8px top 40%;
+  /* background-color: var(--color2); */
+}
+
+.add-factory-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-factory-model {
+  background-color: var(--color3);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 60%;
+  height: 90%;
+  /* overflow: auto; */
+}
+.add-factory-model-content {
+  height: 100%;
+}
+.add-factory-pop-title {
+  font-size: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ebebeb;
+  font-weight: 600;
+}
+
+.add-factory-inputs {
+  /* Styles for the input fields */
+  margin-bottom: 20px;
+}
+
+.add-factory-inputs input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-factory-submit-buttons {
+  width: 100%;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  bottom: 5%;
+}
+
+.factory-cancel-btn,
+.factory-submit-btn {
+  margin-left: 10px;
+}
+
+.add-factory-cancel-btn,
+.add-factory-submit-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.add-factory-cancel-btn {
+  background-color: #ff0000;
+  width: 8rem;
+}
+
+.add-factory-submit-btn {
+  background-color: var(--color2);
+  width: 8rem;
+}
+.start-day-pop-section,
+.end-day-section {
+  margin-right: 22px;
+  font-size: 16px;
+}
+.add-shift-btn {
+  background-color: var(--color2);
+  width: 8rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: inherit;
+}
+.factory-pop-by-day {
+  color: var(--color2);
+  cursor: pointer;
+  padding: 5px;
+  padding-top: 30px;
+  display: flex;
+  font-size: 20px;
+  height: 13%;
+}
+.profile-content-inputfield {
+  height: 15%;
+}
+.factory-pop-by-day .factory-selectbox {
+  display: flex;
+  width: 100%;
+  padding-top: 9px;
+}
+.factory-pop-by-day .request-service-date {
+  color: white;
+  height: 35px;
+  padding: 3px;
+  font-size: 18px;
+  margin-right: inherit;
+
+}
+.factory-pop-by-day .common .factory-pop-shift-list .dropdown .dropdown-btn {
+  border: 1px solid #989594;
+  background-color: var(--color3);
+  width: 40%;
+}
+.factory-pop-shift-list {
+  width: 100%;
+  height: 60%;
+  margin-top: 25px;
+}
+.adding-shifts {
+  height: 80%;
+  overflow: auto;
+}
+.factory-pop-shift-list .select-box-label {
+  font-size: 18px;
+  margin-top: 5px;
+  padding-bottom: 7px;
+  margin-left: 0%;
+  color: var(--color2);
+  font-weight: 600;
+}
+.factory-pop-shift-list .dropdown-content {
+  width: 70%;
+  margin-left: 0%;
+}
+.start-day-pop-section,
+.end-day-section {
+  margin-right: auto; /* Adjust the margin as needed */
+  font-size: 16px;
+}
+.input-label {
+  font-size: 16px;
+}
+
+.factory-shift-input-container {
+  display: flex;
+  align-items: center;
+  width:100%
+}
+.factory-shift-input-container .common-input{
+  border: 2px solid #ccc;
+  width:45%
+}
+.shift-list-name {
+  color: var(--color2);
+  margin: 2px;
+}
+.ant-picker:where(.css-dev-only-do-not-override-1xg9z9n).ant-picker-outlined {
+  width: inherit;
+  margin-left: 15px;
+}
+.cancel-icon {
+  margin-left: 15px;
+  cursor: pointer;
+  color :#ebebeb;
+}
+.factory-shift-input-container > svg {
+  /* width:80px; */
+  height: 28px;
+}
+.start-time-timepicker{
+  width:15%
+}
+.end-time-timepicker-with-date {
+  margin-left: 12px;
+}
+.end-time-timepicker {
+  margin-left: 12px;
+  width:15%;
+}
+.erp-plant-select {
+  width: 50%;
+  margin-left: 23%;
+  margin-top: 20px;
+}
+.erp-plant-select .dropdown .dropdown-btn {
+  background-color: var(--color3);
+  border: 2px solid #ccc;
+}
+.erp-error{
+  color:red;
+  width: 100%;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  bottom: 13%;
+}
+.add-plant-container .input-field::placeholder {
+color:#ccc;
+font-size: 14px;
+font-family: "Poppins", sans-serif;
+font-weight: 700;
+letter-spacing: 0.75px;
+font-style: normal;
+}
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+  .add-factory-model {
+    width: 70%;
+    height: auto;
+  }
+  .factory-selectbox {
+    margin-bottom: 39px;
+    width: 90%;
+    max-width: 90%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .add-factory-model {
+    width: 70%;
+    height: auto;
+  }
+  .factory-selectbox {
+    max-width: 62%;
+  }
+  .factory-by-day .request-service-date {
+    width: -webkit-fill-available;
+  }
+
+  .factory-shift-input-container {
+    align-items: center;
+    display: -webkit-inline-box;
+  }
+  .add-shift-btn-container {
+    padding-top: 6px;
+  }
+  .cancel-icon {
+    width: 6%;
+    padding-top: 4px;
+  }
+  .factory-pop-by-day {
+    display: grid;
+  }
+  .start-day-section,
+  .end-day-section {
+    padding-top: 12px;
+  }
+}

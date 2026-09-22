@@ -1,0 +1,326 @@
+.add-line-popup {
+  width: 100%;
+  height: 100%;
+}
+.add-line-model {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.add-line-model-content {
+  background-color: var(--color3);
+  width: 36%;
+  height: 46%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  overflow: auto;
+}
+
+.add-line-title {
+  font-size: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2%;
+  color: #ebebeb;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.add-line-inputs {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.add-line-inputs label {
+  float: left;
+  font-size: 14px;
+  margin-left: 5%;
+  color: #ebebeb;
+  font-weight: 600;
+  padding-top: 5px;
+}
+.add-line-inputs .input-field {
+  width: 90%;
+  color: black;
+}
+.add-line-submit-buttons {
+  width: 100%;
+  display: flex;
+  padding-bottom: 20px;
+}
+.add-line-submit-buttons .line-cancel-btn > button,
+.add-line-submit-buttons .line-submit-btn > button {
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.line-cancel-btn {
+  width: 50%;
+}
+.line-submit-btn {
+  width: 48%;
+}
+.add-line-cancel-btn {
+  width: 40%;
+  float: right;
+  background-color: #ff0000;
+}
+.error-message {
+  color: #ff0000;
+}
+.add-line-submit-btn {
+  width: 43%;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  float: left;
+  margin-left: 2%;
+  background-color: var(--color2);
+  cursor: pointer;
+}
+.add-line-inputs .invalid-error {
+  width: 90%;
+  border-bottom: 2px solid #ff0000 !important;
+  color: #ebebeb;
+}
+
+.add-line-inputs .invalid-error::placeholder {
+  color: #ff0000;
+}
+.add-line-container .input-field {
+  color: #ebebeb;
+  margin-left: 25px;
+}
+.add-line-container .input-field::placeholder{
+color:#ccc;
+font-size: 14px;
+font-family: "Poppins", sans-serif;
+font-weight: 700;
+letter-spacing: 0.75px;
+font-style: normal;
+}
+.add-machine-button-container .btn-img {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10%;
+  justify-content: center;
+  align-items: center;
+}
+.plant-name-container .dropdown .dropdown-btn {
+  border: 1px solid #989594;
+  background-color: var(--color3);
+  width: 90%;
+  margin-left: 5%;
+}
+.plant-name-container .select-box-label {
+  float: left;
+  font-size: 15px;
+  padding: 7px 0px;
+  margin-left: 5%;
+  color: #ebebeb;
+  font-weight: 600;
+}
+.plant-name-container .dropdown-content {
+  width: 90%;
+  margin-left: 5%;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .add-line-model-content {
+    width: 72%;
+    height: 35%;
+  }
+  .add-product-model-content {
+    width: 76%;
+    height: 58%;
+  }
+  .add-line-title {
+    margin-top: 15px;
+  }
+  .add-plant-button-container {
+    width: 48%;
+  }
+  .machine-list-container {
+    width: 85%;
+  }
+  .plant-list-container {
+    width: 87%;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  .add-line-model-content {
+    width: 64%;
+    height: 30%;
+  }
+  .add-plant-model-content {
+    width: 60%;
+    height: 37%;
+  }
+  .add-machine-model-content {
+    width: 64%;
+    height: 45%;
+  }
+  .add-product-model-content {
+    width: 68%;
+    height: 53%;
+  }
+  .add-line-submit-btn {
+    width: 80%;
+    margin-left: 5%;
+  }
+  .add-line-cancel-btn {
+    width: 80%;
+  }
+  .add-plant-button-container .add-plant-button {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+  .add-line-model-content {
+    width: 55%;
+    height: 32%;
+  }
+  .add-machine-model-content {
+    width: 50%;
+    height: 47%;
+  }
+  .add-product-model-content {
+    width: 52%;
+    height: 54%;
+  }
+  .add-line-title {
+    margin-top: 15px;
+  }
+  .add-plant-button-container {
+    width: 32%;
+  }
+  .add-plant-inputs label {
+    margin-left: 3%;
+  }
+  .add-plant-button-container {
+    width: 36%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .add-line-model-content {
+    width: 40%;
+    height: 35%;
+  }
+  .add-plant-inputs label {
+    margin-left: 3%;
+  }
+  .add-plant-button-container {
+    width: 26%;
+  }
+  .add-machine-model-content {
+    height: 46%;
+  }
+  .add-product-model-content {
+    height: 54%;
+  }
+  .plant-list-container {
+    width: 82%;
+  }
+}
+@media screen and (min-width: 1900px) and (min-height: 1080px) {
+  .add-line-model-content {
+    width: 30%;
+    height: 35%;
+  }
+  .add-line-title {
+    font-size: 30px;
+  }
+  .add-line-inputs .input-label {
+    font-size: 25px;
+  }
+  .add-line-inputs .input-field {
+    padding: 22px;
+    font-size: 20px;
+  }
+  .add-line-inputs .add-user-email .input-field {
+    width: 91%;
+  }
+  .add-line-inputs .add-user-plantas .input-field {
+    width: 92%;
+  }
+  .add-user-profile {
+    margin-top: 8px;
+  }
+  .profile-lable {
+    font-size: 25px;
+  }
+
+  .change-pic-span {
+    font-size: 23px;
+    margin-left: 10%;
+  }
+  .user-image-view {
+    margin-top: 8px;
+  }
+  .add-line-submit-buttons .line-cancel-btn > button,
+  .add-line-submit-buttons .line-submit-btn > button {
+    padding: 20px;
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1900px) and (max-height: 945px) {
+  .add-line-model-content {
+    width: 30%;
+    height: 36%;
+  }
+  .common-input {
+    font-size: 14px;
+  }
+  .add-machine-model-content {
+    width: 37%;
+    height: 52%;
+  }
+  .add-product-model-content {
+    width: 37%;
+    height: 60%;
+  }
+  .plant-list-container {
+    width: 65%;
+  }
+  .machine-list-container {
+    width: 65%;
+  }
+}
+@media (min-width: 2560px) {
+  .add-line-model-content {
+    width: 30%;
+    height: 40%;
+  }
+  .plant-discreate-container .dropdown .dropdown-btn {
+    margin-left: 3%;
+  }
+  .add-machine-model-content {
+    width: 37%;
+    height: 52%;
+  }
+  .add-product-model-content {
+    width: 37%;
+    height: 60%;
+  }
+}

@@ -1,0 +1,244 @@
+.roles-list-container {
+  width: 40%;
+  margin-top: 10px;
+}
+.roles-container {
+  width: 100%;
+  height: 100%;
+}
+.role-inner-container {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 12px;
+}
+.add-role-button-container {
+  width: 25%;
+  height: 50px;
+}
+.add-role-popup {
+  width: 100%;
+  height: 100%;
+}
+.add-role-model {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-role-model-content {
+  background-color: var(--color3);
+  width: 30%;
+  height: 33%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  overflow: auto;
+}
+
+.add-role-title {
+  font-size: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2%;
+  color: #ebebeb;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.add-role-inputs {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.add-role-button-container .add-role-button {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 80%;
+  margin-top: 10px;
+  background-color: var(--color2);
+  border: none;
+  font-weight: 600;
+  color: var(--color1);
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-role-inputs label {
+  float: left;
+  font-size: 14px;
+  margin-left: 5%;
+  color: #ebebeb;
+  font-weight: 600;
+}
+.add-role-inputs .input-field {
+  width: 90%;
+  color: black;
+}
+.add-role-profile {
+  width: 100%;
+}
+.add-role-submit-buttons {
+  width: 100%;
+  display: flex;
+  padding-bottom: 20px;
+}
+.add-role-submit-buttons .role-cancel-btn > button,
+.add-role-submit-buttons .role-submit-btn > button {
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.role-cancel-btn {
+  width: 50%;
+}
+.role-submit-btn {
+  width: 48%;
+}
+.add-role-cancel-btn {
+  width: 40%;
+  float: right;
+  background-color: #ff0000;
+}
+.error-message {
+  color: #ff0000;
+}
+.add-role-submit-btn {
+  width: 40%;
+  float: left;
+  margin-left: 2%;
+  background-color: var(--color2);
+}
+.add-role-inputs .invalid-error {
+  width: 90%;
+  border-bottom: 2px solid #ff0000 !important;
+}
+
+.add-role-inputs .invalid-error::placeholder {
+  color: #ff0000;
+}
+.add-role-container .input-field {
+  color: #ebebeb;
+}
+
+.add-role-button-container .btn-img {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .add-role-model-content {
+    width: 70%;
+    height: 27%;
+  }
+  .add-role-title {
+    margin-top: 15px;
+  }
+  .add-role-button-container .add-role-button {
+    width: 85%;
+  }
+  .roles-list-container {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  .add-role-model-content {
+    width: 25%;
+    height: 27%;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+  .add-role-model-content {
+    width: 55%;
+    height: 27%;
+  }
+  .add-role-title {
+    margin-top: 15px;
+  }
+  .add-role-button-container .add-role-button {
+    width: 70%;
+  }
+  .roles-list-container {
+    width: 65%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .add-role-model-content {
+    width: 40%;
+    height: 25%;
+  }
+}
+@media screen and (min-width: 1900px) and (min-height: 1080px) {
+  .add-role-model-content {
+    width: 28%;
+    height: 28%;
+  }
+  .add-role-title {
+    font-size: 30px;
+  }
+  .add-role-inputs .input-label {
+    font-size: 25px;
+  }
+  .add-role-inputs .input-field {
+    padding: 22px;
+    font-size: 20px;
+  }
+  .add-role-inputs .add-user-email .input-field {
+    width: 91%;
+  }
+  .add-role-inputs .add-user-role .input-field {
+    width: 92%;
+  }
+  .add-user-profile {
+    margin-top: 8px;
+  }
+  .profile-lable {
+    font-size: 25px;
+  }
+
+  .change-pic-span {
+    font-size: 23px;
+    margin-left: 10%;
+  }
+  .user-image-view {
+    margin-top: 8px;
+  }
+  .add-role-submit-buttons .role-cancel-btn > button,
+  .add-role-submit-buttons .role-submit-btn > button {
+    padding: 20px;
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1900px) and (max-height: 945px) {
+  .add-role-model-content {
+    width: 25%;
+    height: 27%;
+  }
+  .common-input {
+    font-size: 14px;
+  }
+}

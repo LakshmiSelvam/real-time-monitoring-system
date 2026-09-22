@@ -1,0 +1,315 @@
+.report-container {
+  width: 100%;
+  height: 100%;
+}
+.report-inner-container {
+  /* margin-left: 25px; */
+  width: 100%;
+  height: 95%;
+  overflow: auto;
+}
+.report-selectbox-lists {
+  display: flex;
+  width: 98%;
+  height: 7%;
+}
+.selectbox {
+  margin-right: 12px;
+  width: 20%;
+  height: 12%;
+}
+.report-selectbox-lists .selectbox .dropdown .dropdown-btn {
+  background-color: var(--color2);
+  color: #000000;
+}
+.report-selectbox-lists .selectbox .dropdown .dropdown-btn .arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  margin-top: -3px;
+}
+.charts-container {
+  width: 97%;
+  /* height: 50%; */
+  margin-top: 20px;
+}
+.production-chart-container {
+  display: flex;
+}
+.production-chart {
+  width: 50%;
+  height: auto;
+  background-color: var(--color1);
+  border-radius: 12px;
+}
+.downtime-chart {
+  width: 50%;
+  height: 100%;
+  background-color: var(--color1);
+  margin-left: 12px;
+  border-radius: 12px;
+  margin-top: 12px;
+}
+.oee-chart-container {
+  width: 100%;
+  height: 43%;
+  padding-top: 0px;
+}
+.oee-chart-inner-container {
+  width: 97%;
+  height: auto;
+  background-color: var(--color1);
+  border-radius: 12px;
+}
+.production-chart-title {
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 8px;
+  float: left;
+  margin-left: 12px;
+}
+.title {
+  margin-left: 8px !important;
+}
+.chart-title {
+  display: flex;
+}
+.downtime-chart-title {
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.oee-chart-title {
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 8px;
+  margin-left: 12px;
+  margin-top: 2%;
+}
+.from-date-button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #989594;
+  border-radius: 4px;
+  outline: none;
+  background-color: var(--color2);
+  width: 100%;
+  cursor: pointer;
+}
+.production-chart .bar-chart > canvas {
+  padding: 15px;
+}
+.downtime-chart .line-chart > canvas {
+  padding: 15px;
+}
+.oee-chart-inner-container .line-chart > canvas {
+  padding: 15px;
+}
+.downtime-chart-title {
+  padding-top: 8px;
+  padding-left: 12px;
+}
+.date-picker-container {
+  position: absolute;
+  z-index: 10;
+  background-position: top center;
+  width: 250px;
+  height: 262px;
+  background-size: cover;
+  padding: 17px 10px 10px 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  background-color: white;
+}
+.request-service-date {
+  width: 100%;
+  /* border: 1px solid #707070; */
+  border :2px solid #ccc;
+  height: 25px;
+  padding: 3px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 12px;
+  /* background: url("../../../assets/svg/calendar-alt-solid.svg") no-repeat; */
+  background-position: right 8px top 40%;
+}
+.date-picker-to-container {
+  position: absolute;
+  z-index: 10;
+  background-position: top center;
+  width: 250px;
+  height: 262px;
+  background-size: cover;
+  padding: 17px 10px 10px 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  background-color: white;
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .report-selectbox-lists {
+    flex-wrap: wrap;
+    width: 96%;
+  }
+  .selectbox {
+    margin-bottom: 39px;
+    width: 48%;
+    max-width: 48%;
+  }
+  .charts-container {
+    padding-top: 1px;
+    flex-wrap: wrap;
+  }
+  .production-chart {
+    width: 97%;
+    max-width: 100%;
+    height: 320px;
+    margin-top: 18%;
+  }
+  .downtime-chart {
+    width: 97%;
+    max-width: 100%;
+    margin-top: 2%;
+    margin-left: 0;
+  }
+  .oee-chart-inner-container {
+    width: 94%;
+    max-width: 100%;
+  }
+  .production-chart-container {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+  .report-selectbox-lists {
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+  }
+  .selectbox {
+    margin-bottom: 39px;
+    width: 32%;
+    max-width: 32%;
+  }
+  .charts-container {
+    flex-direction: column; /* Stack charts vertically */
+    flex-wrap: wrap;
+  }
+  .production-chart {
+    width: 97%;
+    max-width: 100%;
+    height: 320px;
+    margin-top: 11%;
+  }
+  .downtime-chart {
+    width: 97%;
+    max-width: 100%;
+    margin-top: 2%;
+    margin-left: 0;
+  }
+  .oee-chart-inner-container {
+    width: 94%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .production-chart-container {
+    display: block;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .profile_img {
+    width: 12%;
+    height: 80%;
+  }
+  .report-selectbox-lists {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  .selectbox {
+    margin-bottom: 39px;
+    width: 13%;
+    /* max-width: 32%; */
+  }
+
+  .production-chart {
+    height: 329px;
+    /* margin-top: 2%; */
+  }
+  .downtime-chart {
+    /* margin-top: 2%; */
+    margin-left: 10;
+    margin-right: 10px;
+  }
+  .oee-chart-inner-container {
+    width: 96%;
+    max-width: 100%;
+  }
+  .report-selectbox-lists .selectbox .custom-select select {
+    font-size: 12px;
+    width: 100%;
+  }
+  .from-date-button {
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .profile_img {
+    width: 13%;
+    height: 80%;
+  }
+  .sign-out-btn {
+    margin-left: 0px;
+  }
+  .profile-container {
+    left: 76%;
+  }
+  .report-selectbox-lists {
+    margin-top: 1%;
+    display: flex;
+    width: 97.5%;
+  }
+  .selectbox {
+    width: 14%;
+    height: 12%;
+  }
+  .charts-container {
+    margin-top: 20px;
+  }
+
+  .production-chart {
+    width: 50%;
+    height: 320px;
+  }
+  .downtime-chart {
+    width: 50%;
+    height: 100%;
+  }
+  select {
+    padding: 15px;
+    font-size: 21px;
+  }
+  .from-date-button {
+    padding: 15px;
+    font-size: 21px;
+  }
+  .custom-select:hover .options-container {
+    display: block;
+    font-size: 20px;
+  }
+  .line-chart {
+    width: 100%;
+    height: 415px;
+  }
+}

@@ -1,0 +1,71 @@
+
+.permissions-table {
+    width: 100%;
+   margin-left:-35px
+    /* margin: 20px auto; */
+    /* border-collapse: collapse; */
+}
+
+.permissions-table table {
+    width: 100%;
+  
+    /* border: 1px solid #ccc; */
+}
+
+.permissions-table th,
+.permissions-table td {
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    color:white
+    /* text-align: center; */
+}
+.permissions-table .module{
+    padding-top:4%
+}
+.permissions-table th {
+    /* background-color: #f4f4f4; */
+}
+
+.permissions-table td {
+    /* background-color: #fff; */
+}
+.permissions-table input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    accent-color: #46d4c3; 
+    cursor: pointer;
+    background-color: #333f44 ; 
+    appearance: none;
+  }
+  .checkbox-container {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .checkbox-container input[type="checkbox"] {
+    display: none;
+  }
+  
+  .checkbox-container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+    background-color: #333f44;
+  }
+
+  .checkbox-container input[type="checkbox"]:checked + .checkmark::after {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 9px;
+    width: 4px;
+    height: 12px;
+    border: solid #46d4c3;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  
