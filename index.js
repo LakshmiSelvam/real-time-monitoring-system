@@ -28,6 +28,8 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
+//  *****homelayout,landinglayout,assets,common,redux ,index,logo,RoutSeting,setupTest all are comes under src folder ********
+
 
 // root.render(
 //   <Provider store={store}>
